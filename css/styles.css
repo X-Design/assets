@@ -381,8 +381,18 @@ header{
   bottom: 15rem;
 }
 /*=============== POPULAR ===============*/
+.popular__container{
+  padding-top: 6rem;
+  grid-template-columns: 250px;
+  justify-content: center;
+  row-gap: 6rem;
+}
 
-
+.popular__card{
+  position: relative;
+  padding-block: 6.25rem;
+  text-align: center;
+}
 /*=============== JOIN ===============*/
 
 
